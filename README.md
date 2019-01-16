@@ -11,4 +11,8 @@ We first designed representative tasks and UI of the website based on research o
 3. Way for students to search and share their experiences which are useful for recovery and first aid treatment for emergency injuries
 
 # Paper Prototypes
-![paper1](/Users/guanguan/Pictures)
+Paper prototype of community webpage
+![paper prototype of community webpage](https://github.com/doubleguan2017/NU_Healthy_Sports/blob/master/paper_prototypes/paper_pro_community.png?raw=true)
+
+Paper prototype of First Aid webpage
+![paper prototype of first-aid webpage](https://github.com/doubleguan2017/NU_Healthy_Sports/blob/master/paper_prototypes/paper_pro_community.png?raw=true)
