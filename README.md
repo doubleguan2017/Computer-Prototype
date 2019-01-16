@@ -21,4 +21,5 @@ First Aid webpage
 
 # Computer Prototypes
 The final computer prototypes can be found: 
+https://doubleguan2017.github.io/NU_Healthy_Sports/
 
