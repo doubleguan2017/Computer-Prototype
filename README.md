@@ -12,7 +12,9 @@ We first designed representative tasks and UI of the website based on research o
 
 # Paper Prototypes
 community webpage
+
 ![paper prototype of community webpage](https://github.com/doubleguan2017/NU_Healthy_Sports/blob/master/paper_prototypes/paper_pro_community.png?raw=true)
 
 First Aid webpage
+
 ![paper prototype of first-aid webpage](https://github.com/doubleguan2017/NU_Healthy_Sports/blob/master/paper_prototypes/paper_pro_firstAid.png?raw=true)
