@@ -1,0 +1,103 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+    <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="blog.css" />
+</header>
+
+<body>
+    
+    <div class="fiend" align="center">
+        <img src="images/friend2.png" height=470px width=1040px>
+    </div>
+
+
+    <div class="container-fluid">
+
+            <div class="home">
+
+                <!-- /#Header-->
+                <div class="page-header">
+                    <h3>NU Healthy Sports </h3>
+                </div>
+                    <div id="header">
+                      <h3>Blog</h3>
+                    </div>
+                
+
+                <div class="screen">
+
+                    <!-- /#Animated search bar-->
+                    <div class="search">
+                        <span class="fa fa-search"></span>
+                        <input placeholder="Posts you want to find" id="search_bar">
+                        <button onclick="search()">Search</button>
+                        <button onclick="clear_search()" id="clear_button" disabled>Clear</button>
+                    </div>
+
+                    <!-- /#Publish button-->
+                    <a href="#title_entry">
+                        <button class="publish">Publish post</button>
+                    </a>
+
+                    <!-- /#Navigation bar -->
+                    <div class="topnav" id="myTopnav">
+                        <a href="index.html">Home</a>
+                        <a href="health_service.html">Health Service</a>
+                        <a href="first_aid.html">First Aid</a>
+                        <a href="#Community">Community</a>
+                    </div>
+
+                    <!-- /#Blog Content -->
+
+                    <div id="blog">
+
+                        <div class="post" id="post0">
+                            <div class="title" id="title0">
+                                <a href="blog_content.html"><p>Recovery from broken legs</p></a>
+                            </div>
+                            <div class="username" id="username0">
+                                <p>blog_user1</p>
+                            </div>
+                        </div>
+
+                        <div class="post" id="post1">
+                            <div class="title" id="title1">
+                                <a href="blog_content.html"><p>Muscle tearing and NEED HELP!</p></a>
+                            </div>
+                            <div class="username" id="username1">
+                                <p>blog_user2</p>
+                            </div>
+                        </div>
+
+                        <div class="post" id="no_results_post">
+                            <div class="username" id="username_results">
+                                <p>No results found</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div id="blog_entry">
+                        <div id="title_entry">
+                            Title: <input type="text" id="title_entry_text">
+                        </div>
+                        <div id="username_entry">
+                            Username: <input type="text" id="username_entry_text">
+                        </div>
+                        <div id="content_entry">
+                            Content: <textarea type="text" id="content_entry_text"></textarea>
+                        </div>
+                        <div id="publish_button">
+                            <button class="pubutton" onclick="publish()">Publish</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+            <script src="blog.js"></script>
+</body>
+
+
+
+

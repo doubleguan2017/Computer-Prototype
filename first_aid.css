@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+    background: #f9f9f9 
+    url(images/page-bg-1.jpg);
+ }
+/*Beigin of Carousel*/
+.carousel-inner img {
+  width: 100%;
+  max-height: 690px
+}
+
+.header-text h3{
+	color: #fff;
+    font-family:Merriweather;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.header-text h4 {
+	letter-spacing: 2px;
+	color:red;
+	font-family:Merriweather;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.header-text2 {
+	position:relative;
+	left:-220px;
+	top:-300px;
+}
+
+.btn-theme{
+	position:absolute;
+	left:180px;
+	top:250px;
+	color:#fff;
+	font-size:30px;
+	background-color:#cc6600;
+	border:2px solid #cc6600;
+	opacity: 0.95;
+	font-weight:bold;
+	font-family:Merriweather;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+.btn-theme:hover {
+  color: #fff;
+  background-color: #804000;
+  border-color: #804000;
+}
+
+.header-text3 {
+	position:relative;
+	left:380px;
+	top:-80px;
+	color:#fff;
+	font-family:Merriweather;
+	letter-spacing: 0.5px;
+	font-size:19px;
+}
+
+/*End of bootstrap carosel*/
+
+/*Beigin of Navigation bar*/
+.topnav {
+    background-color: #424242;
+    position: relative;
+    left: 0px;
+    top:0px;
+    width: 1440px;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* End of Navigation bar */
+
+/*Begin of two dropdown menus*/
+.custom-dropdown--large {
+  font-size: 1.5em;
+}
+
+.custom-dropdown__select{
+  font-size: inherit; /* inherit size from .custom-dropdown */
+  padding: .5em; /* add some space*/
+  margin: 0; /* remove default margins */
+}
+   
+.custom-dropdown__select--red {
+  background-color: #d53a22;
+  color: #fff;
+  font-family:Merriweather;
+}
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .custom-dropdown__select {
+    padding-right: 2.5em; /* accommodate with the pseudo elements for the dropdown arrow */     
+    border: 0;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;    
+  }
+  
+  .custom-dropdown::before,
+  .custom-dropdown::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+  }
+  
+ .custom-dropdown::after { /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%; margin-top: -.5em;
+  }
+  
+
+  /* Red dropdown style */
+  .custom-dropdown--red::before {
+    background-color: #d53a22;
+  }
+  
+  .custom-dropdown--red::after {
+    color: rgba(0,0,0,.4);
+  }
+  
+  
+.custom-dropdown {
+  margin: 10px;
+  display: inline-block;
+}
+
+#hurt_drop{
+  position: relative;
+  top:-130px;
+  left:830px;
+}
+
+#position_drop{
+  position: relative;
+  top:-120px;
+  left:130px;
+}
+
+#position_part{
+	margin:50px 120px;	
+}
+
+#position_part h2{
+   position: relative;
+   left:550px;
+   color:#757575;
+   font-weight: bold;
+}
+#position_part p{
+	position: relative;
+	left:550px;
+	top:50px;
+	font-family: Lora;
+}
+
+
+#hurt_part{
+	margin:50px 120px;	
+}
+
+#hurt_part h2{
+   position: relative;
+   left:100px;
+   color:#757575;
+   font-weight: bold;
+}
+#hurt_part p{
+	position: relative;
+	left:100px;
+	top:50px;
+	font-family: Lora;
+}
+/*End of two dropdown menus*/
+
+
+/*Start of search button*/
+.searbutton {
+    position: relative;
+    left: 560px;
+    top:-40px;
+    background-color: #cc6600;
+    border: 2px solid #cc6600;
+    color: white;
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: bold;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.searbutton:hover{
+    background-color:#804000 ;
+    color: white;
+}
+
+.Container{
+    background-color: #f9f9f9;
+    margin: 100px auto -300px;
+    padding: 20px 40px 5px;
+    max-width: 1200px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*Beigin of Navigation bar*/
+.topnav2 {
+    background-color: #424242;
+    position: relative;
+    left: 0px;
+    top:-1775px;
+    width: 1440px;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav2 a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav2 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav2 a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* End of Navigation bar */
+
+#sy_title{
+  font-family: Merriweather;
+  font-weight: bold;
+  color:#990000;
+  font-size:40px;
+  position: relative;
+  top:40px;
+}
+
+#small_nav{
+  position: relative;
+  top:50px;
+  left:-20px;
+  color:#757575;
+  font-style: oblique;
+  letter-spacing: 1.1px;
+  line-height: 25px;
+
+}
+
+#display{
+ border-radius:20%;
+ position:relative;
+ left:550px;
+ top:-140px;
+ display:inline-block;
+ letter-spacing: 15px;
+}
+
+/* Symptoms*/
+.Symptoms_title{
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size:25px;
+  color:#990000;
+  position: relative;
+  left:800px;
+  top:-60px;
+}
+
+.Symptoms_des{
+  position: relative;
+  left:550px;
+  top:-50px;
+}
+
+.Symptoms_fig{
+  position: relative;
+  left:10px;
+  top:-200px;
+}
+/*End of Symptoms*/
+
+/*Treatment*/
+.Treatment_title{
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size:25px;
+  color:#990000;
+  position: relative;
+  top:-180px;
+  left:13px;
+}
+
+.Treatment_subtitle{
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size:25px;
+  color:#990000;
+  position: relative;
+  top:-150px;
+  left:13px;
+}
+
+.Treatment_des{
+  position: relative;
+  left:13px;
+  top:-180px;
+}
+
+.Treatment_subdes{
+  position: relative;
+  left:13px;
+  top:-160px;
+}
+
+.Treatment_fig{
+  position: relative;
+  left:650px;
+  top:-550px;
+}
+/*End of Treatment*/
+
+/*Prevention*/
+.Prevention_title{
+  font-family: Merriweather;
+  font-weight: bold;
+  font-size:25px;
+  color:#990000;
+  position: relative;
+  top:-150px;
+  left:930px;
+}
+
+.Prevention_des{
+  position: relative;
+  left:690px;
+  top:-120px;
+}
+
+.Prevention_fig{
+  position: relative;
+  left:170px;
+  top:-350px;
+}
+
+

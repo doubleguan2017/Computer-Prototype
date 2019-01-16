@@ -1,0 +1,103 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+    <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="blog_content.css" />
+</header>
+
+<body>
+    <div class="NU">
+        <img src="images/NU.jpg" height="80">
+    </div>
+
+    <div class="logo">
+        <img src="images/logo.png" height="80">
+    </div>
+
+    <div class="container-fluid">
+
+            <div class="home">
+                <!-- /#Header-->
+                <div class="page-header">
+                    <h3>NU Healthy Sports Blog</h3>
+                </div>
+
+                <!-- /#Emergency-->
+
+
+                <div class="screen">
+
+                    <!-- /#Animated search bar-->
+
+                    <!-- /#Navigation bar -->
+                    <div class="topnav" id="myTopnav">
+                        <a href="index.html">Home</a>
+                        <a href="health_service.html">Health Service</a>
+                        <a href="first_aid.html">First Aid</a>
+                        <a href="blog.html">Community</a>
+                    </div>
+
+                    <!-- /#Homepage -->
+                    <div id="blog_entry">
+                        <div id="original_post_username">
+                            <p>blog_user1</p>
+                        </div>
+                        <div id="blog_post_text_container">
+                            <p>I just wanted to share with everyone what my experience has been on campus recovering from a broken leg
+                            and see if anyone has advice to offer. It has certainly been hard getting to my classes without being able to walk at
+                            full speed. I have had to allow significant extra time in getting to and from class. It has also been difficult in finding
+                            and getting to a seat if the room is crowded. This initial adjustment was hard but over time has gotten easier. Does 
+                            anyone have advice to share on how they managed to get around?</p>
+                        </div>
+                    </div>
+                    <div id="replies_to">
+                        <h3 id="replies_to_text">Replies to: Recovery from broken legs</h3>
+                    </div>
+                    <div id="replies">
+                        <div class="reply" id="reply0">
+                            <div class="post_username">
+                                <p>blog_user2</p>
+                            </div>
+                            <div class="reply_text_container">
+                                <p>I am currently having the same experience as you. It is very overwhelming and I would love to hear
+                                how people have managed through it. I'm currently just trying to take one day at a time and believe that is the
+                                best way to go about it.</p>
+                            </div>
+                        </div>
+                        <div class="reply" id="reply1">
+                            <div class="post_username">
+                                <p>blog_user3</p>
+                            </div>
+                            <div class="reply_text_container">
+                                <p>I suffered a torn ACL last year and I would highly recommend communicating with your professors.
+                                Mine were very understanding and aware of my circumstance which made it much easier if I was ever running late for
+                                class. I would also recommend finding a chair close the door and asking students not to use it, so you won't have to 
+                                struggle with climbing over everyone to find a seat.</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="retotal">
+            <div id="reply_button">
+                <button class="rebutton" onclick="reply()">Reply</button>
+            </div>
+            <div id="username_entry">
+                Username: <input type="text" id="username_entry_text">
+            </div>
+            <div id="reply_entry">
+                Reply: <textarea type="text" id="reply_entry_text"></textarea>
+            </div>
+            <div id="post_reply">
+                <button onclick="post_reply()" id="post_reply_button">Post reply</button>
+            </div>
+        </div>
+         <script src="blog_content.js"></script>
+</body>
+
+
+
+

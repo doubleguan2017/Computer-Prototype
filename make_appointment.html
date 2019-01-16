@@ -1,0 +1,104 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+  <title>Make Appointment</title>
+  <link rel="stylesheet" type="text/css" href="health_service.css" />
+</header>
+
+<body>
+  <div class="NU">
+    <img src="images/NU.jpg" height="80">
+  </div>
+
+  <div class="logo">
+    <img src="images/logo.png" height="80">
+  </div>
+
+  <div class="container-fluid">
+  <div class="row-fluid">
+
+  <div class="home">
+<!-- /#Header-->
+      <div class="page-header">
+        <h3>NU Healthy Sports</h3>
+        </div>
+        <div id="header">
+          <h3>Make an Appointment</h3>
+        </div>
+
+<!-- /#Emergency-->
+      <div class="emerge">
+        <p id="em">EMERGENCY</p>
+        <p id="call">CALL 911</p>
+        <p id="care">24HR HEALTH CARE</p>
+        </div>
+
+      <div class="screen">
+
+<!-- /#Animated search bar-->
+     <div class="search">
+     <span class="fa fa-search"></span>
+     <input placeholder="Search">
+     </div>
+
+<!-- /#Navigation bar -->
+            <div class="topnav" id="myTopnav">
+              <a href="index.html">Home</a >
+              <a href="health_service.html">Health Service</a >
+              <a href="first_aid.html">First Aid</a >
+              <a href="blog.html">Community</a >
+              </div>
+
+<!-- /#Health Services Page -->
+
+                <div class="health-center1">
+                  <p>NU Health Center</p>
+                </div>
+
+                <div id="general_entry">
+                            First Name: <input type="text" class="general_entry_text" id="first_name_text">
+                </div>
+
+                <div id="general_entry">
+                            Last Name: <input type="text" class="general_entry_text" id="last_name_text">
+                </div>
+
+                <div id="general_entry">
+                            Age: <input type="number" class="general_entry_text" id="age_text">
+                </div>
+
+                <div id="general_entry">
+                            Phone Number: <input type="tel" class="general_entry_text" id="phone_number_text">
+                </div>
+
+                <div id="general_entry">
+                            Email: <input type="email" class="general_entry_text" id="email_text">
+                </div>
+
+                <div id="general_entry">
+                            Address: <input type="text" class="general_entry_text" id="address_text">
+                </div>
+
+                <div id="content_entry">
+                            Description of the ailment: <input type="text" class="content_entry_text" id="description_text">
+                </div>
+
+                <div id="general_entry">
+                            Choose Date: <input type="date" class="general_entry_text" id="date_text">
+                </div>
+
+                <div id="general_entry">
+                            Choose Time: <input type="time" class="general_entry_text" id="time_text">
+                </div>
+
+                <div id="publish_button">
+                            <a id="publish_link"><button class="pubutton" onclick="validateForm()">Schedule an Appointment</button></a>
+                </div>
+
+
+          </div>
+        </div>
+        <script src="appointment.js"></script>
+</body>
